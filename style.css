@@ -1,0 +1,87 @@
+body{
+    margin : 0% ;
+    padding-top : 750px ;
+    text-align : center ;
+}
+#welcome{
+   position : absolute ;
+    height : 100% ;
+    width : 100% ;
+    background: linear-gradient( red 20%, blue 100% ) ;
+    color : white ;
+    top : 0 ;
+    bottom : 0 ;
+    left : 0  ;
+    right : 0 ;
+    opacity : .8 ;
+    display : table ;
+    z-index : 1 ;                /*overlap*/
+}
+#d1{
+    position : relative ;
+    display : table-cell;
+    text-align : center ;
+    vertical-align : middle ;
+}
+#image1{
+    height : 200px ;
+width : 150px ; 
+    border : 0px ;
+    border-radius: 100px ;
+     
+}
+.line{
+    width : 40px ;
+    height : 7px ;
+    background-color : black ;
+    margin : 10px auto ;
+}
+#bio{
+    text-align : center ;
+    padding : 55px ;
+}
+#menu{
+list-style : none ;
+    font-family : inherit ;
+    font-size : 30px ;
+    position : fixed ;
+    z-index : 10 ;
+    top : 0px ;
+    text-align : center ;
+    width : 100% ;
+    background-color : red ;
+    margin-top : 0px ;
+   
+}
+.links{
+    float : left ;
+    display : inline ;
+    color : aquamarine ;
+    padding-left : 30px ;
+    padding-right : 30px ;
+     text-shadow : 3px 2px grey ;
+    
+}
+.links:hover{
+    background-color : blue ;
+    font-size : 40px ;
+    text-decoration: underline ;
+}
+#s1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size : 40px ;
+}
+h1, h2{
+    font-size : 30 ;
+    text-align : center ;
+}
+html{
+    scroll-behavior: smooth ;
+}
+a{
+    text-decoration: none ;
+}
+#writing a{
+    font-size : 30px ;
+    text-decoration :underline !important ;
+}
